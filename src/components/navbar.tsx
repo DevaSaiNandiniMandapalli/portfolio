@@ -65,7 +65,7 @@ export function Navbar({ theme, toggleTheme }: NavbarProps) {
                 href={`#${item.id}`}
                 aria-current={active === item.id ? "true" : undefined}
                 className={cn(
-                  "relative rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground",
+                  "relative rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground xl:px-3",
                   active === item.id && "text-foreground"
                 )}
               >
@@ -99,7 +99,7 @@ export function Navbar({ theme, toggleTheme }: NavbarProps) {
           <Button asChild size="sm" className="hidden sm:inline-flex">
             <a href={profile.resumeUrl} download>
               <Download aria-hidden="true" />
-              <span>Download Resume</span>
+              <span className="hidden xl:inline">Download&nbsp;</span>Resume
             </a>
           </Button>
 

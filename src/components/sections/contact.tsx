@@ -30,7 +30,7 @@ export function Contact() {
         />
 
         <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
-          <Reveal className="space-y-4">
+          <Reveal className="min-w-0 space-y-4">
             <a
               href={`mailto:${profile.email}`}
               className="card-surface flex items-center gap-4 p-5"
@@ -42,7 +42,7 @@ export function Contact() {
                 <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground">
                   Email
                 </p>
-                <p className="truncate text-sm font-medium">{profile.email}</p>
+                <p className="break-all text-sm font-medium">{profile.email}</p>
               </div>
             </a>
 
@@ -82,7 +82,7 @@ export function Contact() {
             </Button>
           </Reveal>
 
-          <Reveal delay={0.1}>
+          <Reveal delay={0.1} className="min-w-0">
             <form onSubmit={handleSubmit} className="card-surface space-y-5 p-6" noValidate>
               <div className="grid gap-5 sm:grid-cols-2">
                 <div className="space-y-2">
