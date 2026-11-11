@@ -62,8 +62,7 @@ export interface NavItem {
 
 export const profile = {
   name: "Deva Sai Nandini Mandapalli",
-  headline:
-    "Co-Founder & CTO, NxtGenSec · Cyber Security Engineer | SOC, Threat Hunting & AI Security",
+  headline: "Cyber Security Engineer | SOC, Threat Hunting & AI Security",
   location: "Andhra Pradesh, India",
   email: "devasainandinimandapalli@gmail.com",
   phone: "+91 9392194979",
@@ -73,13 +72,7 @@ export const profile = {
   resumeUrl: "/resume.pdf",
   intro:
     "Co-founder, CTO and Director of NxtGenSec Private Limited — building AI-driven security platforms. I pair hands-on SOC operations, threat hunting and VAPT with security engineering, and have trained 4,000+ students in ethical hacking.",
-  typingRoles: [
-    "SOC Operations",
-    "Threat Hunting",
-    "SOAR Automation",
-    "AI Security",
-    "Co-Founder & CTO",
-  ],
+  typingRoles: ["SOC Operations", "Threat Hunting", "SOAR Automation", "AI Security"],
 } as const;
 
 export const socials: SocialLink[] = [
