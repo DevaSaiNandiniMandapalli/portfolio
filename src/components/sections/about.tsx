@@ -26,6 +26,7 @@ export function About() {
               <Badge variant="outline">VAPT</Badge>
               <Badge variant="outline">AI Security</Badge>
               <Badge variant="outline">Digital Forensics</Badge>
+              <Badge variant="outline">Entrepreneur</Badge>
             </div>
           </Reveal>
 

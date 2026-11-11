@@ -71,7 +71,7 @@ export const profile = {
   photoUrl: "/photo.jpg",
   resumeUrl: "/resume.pdf",
   intro:
-    "Co-founder, CTO and Director of NxtGenSec Private Limited — building AI-driven security platforms. I pair hands-on SOC operations, threat hunting and VAPT with security engineering, and have trained 4,000+ students in ethical hacking.",
+    "Entrepreneur and co-founder of NxtGenSec Private Limited, building AI-driven security platforms. I pair hands-on SOC operations, threat hunting and VAPT with security engineering, and have trained 4,000+ students in ethical hacking.",
   typingRoles: ["SOC Operations", "Threat Hunting", "SOAR Automation", "AI Security"],
 } as const;
 
@@ -100,7 +100,7 @@ export const socials: SocialLink[] = [
 
 export const about = {
   paragraphs: [
-    "Cybersecurity engineer, security researcher and educator based in Andhra Pradesh. I am Co-Founder, CTO and Director of NxtGenSec Private Limited, a cybersecurity firm incorporated in December 2025 and registered in Tirupati, focused on security solutions and AI-driven security platforms.",
+    "Cybersecurity engineer, security researcher, educator and entrepreneur based in Andhra Pradesh. I am co-founder and director of NxtGenSec Private Limited, a cybersecurity firm incorporated in December 2025 and registered in Tirupati, focused on security solutions and AI-driven security platforms.",
     "I hold a B.Tech in Computer Science & Engineering with a specialisation in Cyber Security, plus specialised training in Full Stack Development and Data Structures & Algorithms. My work spans SOC operations, threat hunting, incident response, VAPT and digital forensics with CrowdStrike Falcon EDR, Fortinet FortiGate, Wazuh SIEM and Splunk.",
     "Alongside the company, I mentor at the Bharat Space Education Research Centre (BSERC) and previously led mentoring at Saredufy Web Plus Academy — training 4,000+ students through workshops, hackathons and internship programs in ethical hacking, bug bounty, VAPT and full-stack development.",
   ],
@@ -196,11 +196,11 @@ export const skillGroups: SkillGroup[] = [
 
 export const experience: ExperienceEntry[] = [
   {
-    role: "Co-Founder, CTO & Director",
+    role: "Entrepreneur & Co-Founder",
     organization: "NxtGenSec Private Limited",
     dates: "Dec 2025 — Present",
     description:
-      "Co-founded a cybersecurity company registered in Tirupati, Andhra Pradesh, incorporated in December 2025. Leading technology and security engineering: AI-driven security platforms, API, mobile and IoT security, SOC services, VAPT and blockchain research.",
+      "Co-founded a cybersecurity company registered in Tirupati, Andhra Pradesh, incorporated in December 2025. Leading technology and security engineering — AI-driven security platforms, API, mobile and IoT security, SOC services, VAPT and blockchain research.",
   },
   {
     role: "Mentor",
