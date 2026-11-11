@@ -119,20 +119,20 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="order-1 flex justify-center md:order-2 md:justify-end"
         >
-          <div className="relative w-36 sm:w-44 lg:w-52">
+          <div className="relative">
             <div
-              className="absolute -inset-3 rounded-3xl bg-primary/15 blur-2xl"
+              className="absolute -inset-3 rounded-full bg-primary/20 blur-2xl"
               aria-hidden="true"
             />
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-primary/30 bg-card shadow-[0_0_40px_-12px_hsl(var(--primary)/0.55)]">
+            <div className="relative h-40 w-40 overflow-hidden rounded-full border-2 border-primary/40 bg-card shadow-[0_0_45px_-12px_hsl(var(--primary)/0.6)] sm:h-48 sm:w-48 lg:h-56 lg:w-56">
               <img
                 src={profile.photoUrl}
                 alt={`Portrait of ${profile.name}`}
                 width={512}
-                height={640}
+                height={512}
                 loading="eager"
                 decoding="async"
-                className="h-full w-full object-cover object-[center_18%]"
+                className="h-full w-full object-cover"
               />
             </div>
           </div>

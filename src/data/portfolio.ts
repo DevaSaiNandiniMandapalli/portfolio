@@ -48,6 +48,13 @@ export interface Certification {
   name: string;
 }
 
+export interface EducationEntry {
+  qualification: string;
+  institution: string;
+  period: string;
+  detail: string;
+}
+
 export interface NavItem {
   id: string;
   label: string;
@@ -110,6 +117,27 @@ export const about = {
     { value: "5+", label: "internships and roles" },
   ] as Stat[],
 };
+
+export const education: EducationEntry[] = [
+  {
+    qualification: "B.Tech — Computer Science & Engineering (Cyber Security)",
+    institution: "Andhra Pradesh, India",
+    period: "2023 — 2027 (expected)",
+    detail: "Current CGPA 8.5 · 0 backlogs",
+  },
+  {
+    qualification: "Intermediate (Class XII)",
+    institution: "Narayana Junior College, Tirupati",
+    period: "2023",
+    detail: "8.9 GPA",
+  },
+  {
+    qualification: "SSC (Class X)",
+    institution: "Vijaya Bharathi English Medium High School",
+    period: "2020",
+    detail: "9.0 GPA",
+  },
+];
 
 export const skillGroups: SkillGroup[] = [
   {
@@ -189,6 +217,20 @@ export const experience: ExperienceEntry[] = [
       "Mentor for students and early-career professionals in cybersecurity fundamentals, ethical hacking and applied security research.",
   },
   {
+    role: "Full Stack Development Intern",
+    organization: "Saredufy Web Plus Academy",
+    dates: "03 Apr 2025 — 30 May 2025",
+    description:
+      "Online internship building full-stack web application features, from UI components to API integration.",
+  },
+  {
+    role: "Campus Ambassador",
+    organization: "Saredufy Web Plus Academy",
+    dates: "From 05 Aug 2025",
+    description:
+      "Representing Saredufy on campus: driving student outreach, workshops and internship pipeline for cybersecurity and full-stack programs.",
+  },
+  {
     role: "Head of Mentors",
     organization: "Saredufy Web Plus Academy",
     dates: "[Dates]",
@@ -198,23 +240,23 @@ export const experience: ExperienceEntry[] = [
   {
     role: "Cyber Security (SOC) Intern",
     organization: "BlueCloud Softech",
-    dates: "[Dates]",
+    dates: "25 Jun 2026 — 25 Oct 2026",
     description:
-      "Built an end-to-end SOC pipeline using CrowdStrike Falcon EDR, Wazuh SIEM and Fortinet FortiGate.",
+      "Onsite internship. Built an end-to-end SOC pipeline using CrowdStrike Falcon EDR, Wazuh SIEM and Fortinet FortiGate. Converted to apprentice on completion.",
   },
   {
     role: "Cyber Security Advanced Intern",
     organization: "Supraja Technologies",
-    dates: "[Dates]",
+    dates: "21 May 2026 — 21 Aug 2026",
     description:
-      "Performed Ethical Hacking, VAPT, Web Security Testing and Digital Forensics across client engagements.",
+      "Online advanced internship. Performed Ethical Hacking, VAPT, Web Security Testing and Digital Forensics across client engagements.",
   },
   {
     role: "Blockchain Intern",
     organization: "NIT Puducherry",
-    dates: "[Dates]",
+    dates: "16 Jun 2025 — 16 Aug 2025",
     description:
-      "Developed blockchain applications and co-authored a blockchain research paper.",
+      "Onsite internship. Developed blockchain applications and co-authored a blockchain research paper.",
   },
   {
     role: "Cyber Security Trainer & Resource Person",

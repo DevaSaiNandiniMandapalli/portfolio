@@ -1,4 +1,4 @@
-import { about } from "@/data/portfolio";
+import { about, education } from "@/data/portfolio";
 import { SectionHeading } from "@/components/section-heading";
 import { Reveal } from "@/components/reveal";
 import { Badge } from "@/components/ui/badge";
@@ -42,6 +42,24 @@ export function About() {
               ))}
             </dl>
           </Reveal>
+        </div>
+
+        <div className="mt-14">
+          <h3 className="font-mono text-xs uppercase tracking-[0.2em] text-primary">Education</h3>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {education.map((item, i) => (
+              <Reveal
+                key={item.qualification}
+                delay={i * 0.06}
+                className="card-surface flex h-full flex-col gap-2 p-5"
+              >
+                <p className="font-mono text-xs text-muted-foreground">{item.period}</p>
+                <p className="text-sm font-semibold leading-snug">{item.qualification}</p>
+                <p className="text-sm text-muted-foreground">{item.institution}</p>
+                <p className="mt-auto pt-2 text-sm font-medium text-primary">{item.detail}</p>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </div>
     </section>
