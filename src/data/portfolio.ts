@@ -114,20 +114,20 @@ export const about = {
 export const education: EducationEntry[] = [
   {
     qualification: "B.Tech — Computer Science & Engineering (Cyber Security)",
-    institution: "Andhra Pradesh, India",
-    period: "2023 — 2027 (expected)",
+    institution: "MITS, Madanapalle Institute of Technology & Science",
+    period: "2023 — 2027",
     detail: "Current CGPA 8.5",
   },
   {
     qualification: "Intermediate (Class XII)",
     institution: "Narayana Junior College, Tirupati",
-    period: "2023",
+    period: "2021 — 2023",
     detail: "8.9 GPA",
   },
   {
     qualification: "SSC (Class X)",
     institution: "Vijaya Bharathi English Medium High School",
-    period: "2020",
+    period: "2009 — 2021",
     detail: "9.0 GPA",
   },
 ];
