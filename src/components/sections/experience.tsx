@@ -11,7 +11,7 @@ export function Experience() {
           id="experience"
           eyebrow="03 — Experience"
           title="Where I've worked"
-          description="Roles across SOC operations, offensive security, blockchain, training and client delivery."
+          description="Entrepreneurship, SOC operations, offensive security, blockchain research, training and client delivery."
         />
 
         <ol className="relative ml-3 border-l border-border sm:ml-4">

@@ -55,7 +55,8 @@ export interface NavItem {
 
 export const profile = {
   name: "Deva Sai Nandini Mandapalli",
-  headline: "Cyber Security Engineer | SOC, Threat Hunting & AI Security",
+  headline:
+    "Co-Founder & CTO, NxtGenSec · Cyber Security Engineer | SOC, Threat Hunting & AI Security",
   location: "Andhra Pradesh, India",
   email: "devasainandinimandapalli@gmail.com",
   phone: "+91 9392194979",
@@ -64,8 +65,14 @@ export const profile = {
   photoUrl: "/photo.jpg",
   resumeUrl: "/resume.pdf",
   intro:
-    "I defend, hunt and automate — pairing hands-on SOC operations and threat hunting with AI-driven security engineering. Currently a final-year Cyber Security student and founder of NxtGenSec.",
-  typingRoles: ["SOC Operations", "Threat Hunting", "SOAR Automation", "AI Security"],
+    "Co-founder, CTO and Director of NxtGenSec Private Limited — building AI-driven security platforms. I pair hands-on SOC operations, threat hunting and VAPT with security engineering, and have trained 4,000+ students in ethical hacking.",
+  typingRoles: [
+    "SOC Operations",
+    "Threat Hunting",
+    "SOAR Automation",
+    "AI Security",
+    "Co-Founder & CTO",
+  ],
 } as const;
 
 export const socials: SocialLink[] = [
@@ -93,8 +100,9 @@ export const socials: SocialLink[] = [
 
 export const about = {
   paragraphs: [
-    "Final-year B.Tech (Computer Science & Engineering, Cyber Security) student with hands-on experience in SOC operations, VAPT, threat hunting, incident response and digital forensics.",
-    "Skilled in CrowdStrike Falcon EDR, Fortinet FortiGate, Wazuh SIEM and Splunk. Founder of NxtGenSec, building AI-powered security solutions and mentoring students.",
+    "Cybersecurity engineer, security researcher and educator based in Andhra Pradesh. I am Co-Founder, CTO and Director of NxtGenSec Private Limited, a cybersecurity firm incorporated in December 2025 and registered in Tirupati, focused on security solutions and AI-driven security platforms.",
+    "I hold a B.Tech in Computer Science & Engineering with a specialisation in Cyber Security, plus specialised training in Full Stack Development and Data Structures & Algorithms. My work spans SOC operations, threat hunting, incident response, VAPT and digital forensics with CrowdStrike Falcon EDR, Fortinet FortiGate, Wazuh SIEM and Splunk.",
+    "Alongside the company, I mentor at the Bharat Space Education Research Centre (BSERC) and previously led mentoring at Saredufy Web Plus Academy — training 4,000+ students through workshops, hackathons and internship programs in ethical hacking, bug bounty, VAPT and full-stack development.",
   ],
   stats: [
     { value: "4,000+", label: "students trained" },
@@ -166,18 +174,25 @@ export const skillGroups: SkillGroup[] = [
 
 export const experience: ExperienceEntry[] = [
   {
-    role: "Founder & Security Lead",
-    organization: "NxtGenSec",
-    dates: "[Dates]",
+    role: "Co-Founder, CTO & Director",
+    organization: "NxtGenSec Private Limited",
+    dates: "Dec 2025 — Present",
     description:
-      "Led cybersecurity workshops, internships, hackathons and mentorship programs; building AI-powered security solutions for students and early-career professionals.",
+      "Co-founded a cybersecurity company registered in Tirupati, Andhra Pradesh, incorporated in December 2025. Leading technology and security engineering: AI-driven security platforms, API, mobile and IoT security, SOC services, VAPT and blockchain research.",
+  },
+  {
+    role: "Mentor",
+    organization: "Bharat Space Education Research Centre (BSERC)",
+    dates: "",
+    description:
+      "Mentor for students and early-career professionals in cybersecurity fundamentals, ethical hacking and applied security research.",
   },
   {
     role: "Head of Mentors",
     organization: "Saredufy Web Plus Academy",
     dates: "[Dates]",
     description:
-      "Mentored students in Ethical Hacking, VAPT and Full-Stack Development, guiding projects from concept to delivery.",
+      "Led the mentor team and trained 4,000+ students through workshops, hackathons and internship programs in ethical hacking, bug bounty, VAPT and full-stack development.",
   },
   {
     role: "Cyber Security (SOC) Intern",
