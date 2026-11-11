@@ -123,7 +123,7 @@ export const education: EducationEntry[] = [
     qualification: "B.Tech — Computer Science & Engineering (Cyber Security)",
     institution: "Andhra Pradesh, India",
     period: "2023 — 2027 (expected)",
-    detail: "Current CGPA 8.5 · 0 backlogs",
+    detail: "Current CGPA 8.5",
   },
   {
     qualification: "Intermediate (Class XII)",
